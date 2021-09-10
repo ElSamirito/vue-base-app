@@ -1,14 +1,16 @@
 <template>
   <div>
-    Vue base app
+    <input v-model="nombre" type="text">
+    <p>Hola {{nombre}}!!</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Main',
+  name: 'Ejercicio1',
   data: function(){
     return {
+      nombre: ""
       // put your variables here...
     }
   },

@@ -1,15 +1,16 @@
 <template>
   <div id="app">
-    <Main />
+    <h1>Ejercicio N°1</h1>
+    <Ejercicio1 />
   </div>
 </template>
 
 <script>
-import Main from "./components/Main"
+import Ejercicio1 from "./components/Ejercicio1.vue"
 
 export default {
   components: {
-    Main,
+    Ejercicio1,
   },
   name: 'App',
 }
